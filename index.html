@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SonicWave - Sua Música, Seu Ritmo</title>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header id="header">
+        <div class="nav-container">
+            <a href="#" class="logo">
+                <div class="logo-icon">
+                    <i class="fas fa-wave-square"></i>
+                </div>
+                <span class="logo-text">SonicWave</span>
+            </a>
+
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home">Início</a></li>
+                <li><a href="#genres">Gêneros</a></li>
+                <li><a href="#top-tracks">Top Músicas</a></li>
+                <li><a href="#player">Player</a></li>
+                <li><a href="#playlists">Playlists</a></li>
+                <li><a href="#videos">Vídeos</a></li>
+            </ul>
+
+            <button class="mobile-menu-btn" id="mobileMenuBtn">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-bg"></div>
+        <div class="hero-container">
+            <div class="hero-content fade-in">
+                <h1>Sua Música.<br><span>Seu Ritmo.</span></h1>
+                <p>Descubra milhões de músicas, crie suas próprias playlists e compartilhe com amigos.</p>
+                <div class="hero-buttons">
+                    <button class="btn btn-primary">
+                        <i class="fas fa-play"></i> Começar a Ouvir
+                    </button>
+                    <button class="btn btn-outline">
+                        <i class="fas fa-info-circle"></i> Saiba Mais
+                    </button>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <img src="https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=800&q=80" alt="Fones de ouvido">
+                <div class="floating-card floating-card-1">
+                    <i class="fas fa-music"></i>
+                    <span>Novo Álbum</span>
+                </div>
+                <div class="floating-card floating-card-2">
+                    <i class="fas fa-headphones"></i>
+                    <span>Ouça Agora</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Genres Section -->
+    <section class="genres-section" id="genres">
+        <div class="section-header">
+            <div>
+                <h2 class="section-title">Explorar Gêneros</h2>
+                <p class="section-subtitle">Descubra novos estilos musicais</p>
+            </div>
+            <a href="#" class="view-all">
+                Ver Todos <i class="fas fa-arrow-right"></i>
+            </a>
+        </div>
+        <div class="genres-grid">
+            <div class="genre-card">
+                <div class="genre-icon"><i class="fas fa-guitar"></i></div>
+                <h3 class="genre-name">Rock</h3>
+                <p class="genre-count">3.2M músicas</p>
+            </div>
+            <div class="genre-card">
+                <div class="genre-icon"><i class="fas fa-music"></i></div>
+                <h3 class="genre-name">Funk</h3>
+                <p class="genre-count">5.8M músicas</p>
+            </div>
+            <div class="genre-card">
+                <div class="genre-icon"><i class="fas fa-microphone"></i></div>
+                <h3 class="genre-name">Trap</h3>
+                <p class="genre-count">4.1M músicas</p>
+            </div>
+            <div class="genre-card">
+                <div class="genre-icon"><i class="fas fa-compact-disc"></i></div>
+                <h3 class="genre-name">Eletrônico</h3>
+                <p class="genre-count">2.9M músicas</p>
+            </div>
+            <div class="genre-card">
+                <div class="genre-icon"><i class="fas fa-drum"></i></div>
+                <h3 class="genre-name">MPB</h3>
+                <p class="genre-count">0.8M músicas</p>
+            </div>
+            <div class="genre-card">
+                <div class="genre-icon"><i class="fas fa-music"></i></div>
+                <h3 class="genre-name">Jazz</h3>
+                <p class="genre-count">1.2M músicas</p>
+            </div>
+            <div class="genre-card">
+                <div class="genre-icon"><i class="fas fa-heart-pulse"></i></div>
+                <h3 class="genre-name">R&B</h3>
+                <p class="genre-count">2.4M músicas</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Top Tracks Section -->
+    <section class="top-tracks-section" id="top-tracks">
+        <div class="section-header">
+            <div>
+                <h2 class="section-title">Top Músicas</h2>
+                <p class="section-subtitle">As mais tocadas agora</p>
+            </div>
+            <a href="#" class="view-all">
+                Ver Todas <i class="fas fa-arrow-right"></i>
+            </a>
+        </div>
+        <div class="top-tracks-container">
+            <div class="tracks-list">
+                <div class="track-item">
+                    <span class="track-number">1</span>
+                    <img src="https://www.azlyrics.com/images/albums/471/282a239b9fb24c342d55f87abb3f1f32.jpg" class="track-cover" alt="Música">
+                    <div class="track-info">
+                        <div class="track-title">Lover, You Should Come over</div>
+                        <div class="track-artist">Jeff Buckley</div>
+                    </div>
+                    <span class="track-duration">6:44</span>
+                    <button class="track-play"><i class="fas fa-play"></i></button>
+                </div>
+                <div class="track-item">
+                    <span class="track-number">2</span>
+                    <img src="https://th.bing.com/th/id/R.7979caa9c651025d2ec475840b012246?rik=XwcfbWmcvDmfuA&riu=http%3a%2f%2flive.awge.com%2fcdn%2fshop%2ffiles%2fG8VHgrMXkAENzQ7_c27ec360-56fe-42b7-95f3-c70ab78eb185.jpg%3fv%3d1766127815&ehk=e4%2fJrYWEF6Vm%2bTHKwSTDdz5%2frYm0arPIs97Q6CfhsiM%3d&risl=&pid=ImgRaw&r=0" class="track-cover" alt="Música">
+                    <div class="track-info">
+                        <div class="track-title">STAY HERE 4 LIFE (feat.Brent Faiyaz)</div>
+                        <div class="track-artist">A$AP Rocky,Brent Faiyaz</div>
+                    </div>
+                    <span class="track-duration">5:44</span>
+                    <button class="track-play"><i class="fas fa-play"></i></button>
+                </div>
+                <div class="track-item"
+                    <span class="track-number">3</span>
+                    <img src="https://album99.cdn107.com/f3/e6/f3e6ff4c8f64a770d12aa1484fa920bb_xl.jpg" class="track-cover" alt="Música">
+                    <div class="track-info">
+                        <div class="track-title">butterflies.</div>
+                        <div class="track-artist">Brent Faiyaz</div>
+                    </div>
+                    <span class="track-duration">4:07</span>
+                    <button class="track-play"><i class="fas fa-play"></i></button>
+                </div>
+                <div class="track-item">
+                    <span class="track-number">4</span>
+                    <img src="https://tse2.mm.bing.net/th/id/OIP.aDIrsExiJQ7ZmI40kfPyyQAAAA?cb=thfc1falcon&rs=1&pid=ImgDetMain&o=7&rm=3" class="track-cover" alt="Música">
+                    <div class="track-info">
+                        <div class="track-title">ALL MINE</div>
+                        <div class="track-artist">Brent Faiyaz</div>
+                    </div>
+                    <span class="track-duration">3:35</span>
+                    <button class="track-play"><i class="fas fa-play"></i></button>
+                </div>
+                <div class="track-item">
+                    <span class="track-number">5</span>
+                    <img src="https://m.media-amazon.com/images/I/712ocB4N8mL.__AC_SX300_SY300_QL70_ML2_.jpg" class="track-cover" alt="Música">
+                    <div class="track-info">
+                        <div class="track-title">Normal Girl</div>
+                        <div class="track-artist">SZA</div>
+                    </div>
+                    <span class="track-duration">4:13</span>
+                    <button class="track-play"><i class="fas fa-play"></i></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Player Section -->
+    <section class="player-section" id="player">
+        <div class="section-header">
+            <div>
+                <h2 class="section-title">Agora Tocando</h2>
+                <p class="section-subtitle">Seu player pessoal</p>
+            </div>
+        </div>
+        <div class="player-container">
+            <div class="player-info">
+                <img src="https://tse1.mm.bing.net/th/id/OIP.xAT6aLCcvrR3lPbItmYzjQHaEQ?cb=thfc1falcon&rs=1&pid=ImgDetMain&o=7&rm=3" class="player-cover" alt="Álbum">
+                <h3>Ivy</h3>
+                <p>Frank Ocean</p>
+                <div class="player-controls">
+                    <button class="control-btn"><i class="fas fa-step-backward"></i></button>
+                    <button class="control-btn play"><i class="fas fa-play"></i></button>
+                    <button class="control-btn"><i class="fas fa-step-forward"></i></button>
+                </div>
+            </div>
+            <div class="spotify-embed">
+                <iframe style="border-radius:12px" src="https://open.spotify.com/track/2ZWlPOoWh0626oTaHrnl2a" width="100%" height="352" frameBorder="0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Playlists Section -->
+    <section class="playlists-section" id="playlists">
+        <div class="section-header">
+            <div>
+                <h2 class="section-title">Playlists Populares</h2>
+                <p class="section-subtitle">Escolhas especiais para você</p>
+            </div>
+            <a href="#" class="view-all">
+                Ver Todas <i class="fas fa-arrow-right"></i>
+            </a>
+        </div>
+        <div class="playlists-grid">
+            <div class="playlist-card">
+                <img src="imgs/WhatsApp Image 2026-05-18 at 16.56.40.jpeg" class="playlist-cover" alt="Playlist">
+                <div class="playlist-overlay">
+                    <button class="playlist-play-btn"><i class="fas fa-play"></i></button>
+                </div>
+                <div class="playlist-info">
+                    <h3 class="playlist-name">Radio Mac Miller</h3>
+                    <p class="playlist-meta"><i class="fas fa-music"></i> 42 músicas</p>
+                </div>
+            </div>
+            <div class="playlist-card">
+                <img src="imgs/brent.jpeg" class="playlist-cover" alt="Playlist">
+                <div class="playlist-overlay">
+                    <button class="playlist-play-btn"><i class="fas fa-play"></i></button>
+                </div>
+                <div class="playlist-info">
+                    <h3 class="playlist-name">Radio Brent Faiyaz</h3>
+                    <p class="playlist-meta"><i class="fas fa-heart"></i> 38 músicas</p>
+                </div>
+            </div>
+            <div class="playlist-card">
+                <img src="imgs/drake.jpeg" class="playlist-cover" alt="Playlist">
+                <div class="playlist-overlay">
+                    <button class="playlist-play-btn"><i class="fas fa-play"></i></button>
+                </div>
+                <div class="playlist-info">
+                    <h3 class="playlist-name">Radio Drake</h3>
+                    <p class="playlist-meta"><i class="fas fa-moon"></i> 56 músicas</p>
+                </div>
+            </div>
+            <div class="playlist-card">
+                <img src="imgs/daniel.jpeg" class="playlist-cover" alt="Playlist">
+                <div class="playlist-overlay">
+                    <button class="playlist-play-btn"><i class="fas fa-play"></i></button>
+                </div>
+                <div class="playlist-info">
+                    <h3 class="playlist-name">Radio Daniel Caesar</h3>
+                    <p class="playlist-meta"><i class="fas fa-fire"></i> 50 músicas</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Videos Section -->
+    <section class="videos-section" id="videos">
+        <div class="section-header">
+            <div>
+                <h2 class="section-title">Videoclipes</h2>
+                <p class="section-subtitle">Assista aos melhores vídeos musicais</p>
+            </div>
+            <a href="#" class="view-all">
+                Ver Todos <i class="fas fa-arrow-right"></i>
+            </a>
+        </div>
+        <div class="videos-grid">
+            <div class="video-card">
+                <div class="video-thumbnail">
+                    <iframe src="https://www.youtube.com/watch?v=xpVfcZ0ZcFM&list=RDxpVfcZ0ZcFM&start_radio=1" title="YouTube video" allowfullscreen=""></iframe>
+                </div>
+                <div class="video-info">
+                    <h3 class="video-title">Gods plan</h3>
+                    <p class="video-channel"><i class="fas fa-youtube"></i> Drake </p>
+                </div>
+            </div>
+            <div class="video-card">
+                <div class="video-thumbnail">
+                    <iframe src="https://www.youtube.com/watch?v=uQFVqltOXRg&list=RDuQFVqltOXRg&start_radio=1" title="YouTube video" allowfullscreen=""></iframe>
+                </div>
+                <div class="video-info">
+                    <h3 class="video-title">Get You</h3>
+                    <p class="video-channel"><i class="fas fa-youtube"></i> Daniel Caesar </p>
+                </div>
+            </div>
+            <div class="video-card">
+                <div class="video-thumbnail">
+                    <iframe src="https://www.youtube.com/watch?v=Kbj2Zss-5GY&list=RDKbj2Zss-5GY&start_radio=1" title="YouTube video" allowfullscreen=""></iframe>
+                </div>
+                <div class="video-info">
+                    <h3 class="video-title">Praise The Lord</h3>
+                    <p class="video-channel"><i class="fas fa-youtube"></i>A$AP Rocky </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-brand">
+                <div style="display: flex; align-items: center; margin-bottom: 1rem;">
+                    <div class="logo-icon" style="background: var(--primary); margin-right: 0.75rem;">
+                        <i class="fas fa-wave-square"></i>
+                    </div>
+                    <span class="logo-text">SonicWave</span>
+                </div>
+                <p>A melhor plataforma para descobrir e compartilhar música. Conecte-se com artistas e fãs do mundo todo.</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+            <div class="footer-column">
+                <h4>Produto</h4>
+                <ul>
+                    <li><a href="#"><i class="fas fa-chevron-right"></i> Recursos</a></li>
+                    <li><a href="#"><i class="fas fa-chevron-right"></i> Preços</a></li>
+                    <li><a href="#"><i class="fas fa-chevron-right"></i> Segurança</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h4>Sobre</h4>
+                <ul>
+                    <li><a href="#"><i class="fas fa-chevron-right"></i> Quem Somos</a></li>
+                    <li><a href="#"><i class="fas fa-chevron-right"></i> Blog</a></li>
+                    <li><a href="#"><i class="fas fa-chevron-right"></i> Carreiras</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h4>Legal</h4>
+                <ul>
+                    <li><a href="#"><i class="fas fa-chevron-right"></i> Privacidade</a></li>
+                    <li><a href="#"><i class="fas fa-chevron-right"></i> Termos</a></li>
+                    <li><a href="#"><i class="fas fa-chevron-right"></i> Contato</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 SonicWave. Feito com <i class="fas fa-heart"></i> para os amantes de música.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile menu toggle
+        const mobileMenuBtn = document.getElementById('mobileMenuBtn');
+        const navLinks = document.getElementById('navLinks');
+
+        mobileMenuBtn.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+        });
+
+        // Smoothly animate elements on scroll
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
+    </script>
+</body>
+</html>
